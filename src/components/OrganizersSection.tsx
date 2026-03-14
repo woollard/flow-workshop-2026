@@ -1,9 +1,6 @@
 import { ExternalLink } from "lucide-react";
 
-//import davidImg from "@/assets/david_woollard.jpg";
-//import francescoImg from "@/assets/francesco_zanlungo.jpeg";
-//import luisImg from "@/assets/luis_morales.jpeg";
-//import gustavoImg from "@/assets/gustavo_garcia.jpeg";
+const base = import.meta.env.BASE_URL;
 
 const organizers = [
   {
@@ -11,32 +8,28 @@ const organizers = [
     affiliation: "Standard AI",
     role: "CTO",
     website: "https://dmwoollard.com",
-    //photo: davidImg,
-    photo: "/assets/david_woollard.jpg",
+    photo: `${base}assets/david_woollard.jpg`,
   },
   {
     name: "Francesco Zanlungo",
     affiliation: "University of Palermo / ATR",
     role: "Assistant Professor",
     website: "https://zanlungo.github.io",
-    //photo: francescoImg,
-    photo: "/assets/francesco_zanlungo.jpeg",
+    photo: `${base}assets/francesco_zanlungo.jpeg`,
   },
   {
     name: "Luis Morales",
     affiliation: "Standard AI",
     role: "Research Scientist",
     website: "https://sites.google.com/site/yoichimorales/",
-    //photo: luisImg,
-    photo: "/assets/luis_morales.jpeg",
+    photo: `${base}assets/luis_morales.jpeg`,
   },
   {
     name: "Gustavo García",
     affiliation: "Ritsumeikan University",
     role: "Associate Professor",
     website: "http://www.tavogarcia.com/",
-    //photo: gustavoImg,
-    photo: "/assets/gustavo_garcia.jpeg",
+    photo: `${base}assets/gustavo_garcia.jpeg`,
   },
 ];
 

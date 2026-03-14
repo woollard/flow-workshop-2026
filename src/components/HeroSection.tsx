@@ -1,3 +1,5 @@
+const base = import.meta.env.BASE_URL;
+
 const HeroSection = () => (
   <section className="relative hero-bg min-h-[85vh] flex items-center justify-center overflow-hidden">
     {/* Background video */}
@@ -9,7 +11,7 @@ const HeroSection = () => (
         playsInline
         className="w-full h-full object-cover opacity-20 mix-blend-lighten"
       >
-        <source src="/header.mp4" type="video/mp4" />
+        <source src={`${base}header.mp4`} type="video/mp4" />
       </video>
       <div className="absolute inset-0 hero-bg opacity-60" />
     </div>
