@@ -3,10 +3,10 @@ import { Calendar } from "lucide-react";
 const dates = [
   { event: "Paper Submission Opens", date: "June 16, 2026", confirmed: true },
   { event: "Challenge Data Release", date: "June 16, 2026", confirmed: true },
-  { event: "Paper Submission Deadline", date: "TBD", confirmed: false },
-  { event: "Paper Notification", date: "TBD", confirmed: false },
-  { event: "Challenge Deadline", date: "TBD", confirmed: false },
-  { event: "Workshop Day", date: "September 27, 2026 (co-located with IROS 2026)", confirmed: false },
+  { event: "Paper Submission Deadline", date: "July 24, 2026 (AoE)", confirmed: false },
+  { event: "Paper Notification", date: "August 14, 2026 (AoE)", confirmed: false },
+  { event: "Challenge Deadline", date: "August 28, 2026 (AoE)", confirmed: false },
+  { event: "Workshop Day", date: "September 27, 2026 (co-located with IROS 2026)", confirmed: true },
 ];
 
 const DatesSection = () => (

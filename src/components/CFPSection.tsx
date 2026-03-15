@@ -77,7 +77,11 @@ const CFPSection = () => (
           <span className="text-primary font-medium">OpenReview</span>. Link coming soon.
         </p>
         <p className="text-sm text-muted-foreground font-body">
-          <strong className="text-foreground">Submission Dates:</strong> TBD — see the Dates section below.
+          <strong className="text-foreground">Submission Dates:</strong> July 24, 2026 (AoE) — see the Dates section below.
+        </p>
+        <br/>
+        <p className="text-sm text-muted-foreground font-body">
+          We welcome submissions spanning robotics, pedestrian dynamics, human motion analysis, and data-driven navigation. Early-stage work and position papers are encouraged. Accepted papers will be presented at the workshop and listed on the workshop website. Submissions are non-archival and may be submitted to other venues.
         </p>
       </div>
     </div>
